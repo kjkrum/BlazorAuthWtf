@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthWtf", "BlazorAuthWtf\BlazorAuthWtf.csproj", "{7E4A385C-254C-4575-B1FD-F6F61A61A1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E4A385C-254C-4575-B1FD-F6F61A61A1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4A385C-254C-4575-B1FD-F6F61A61A1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4A385C-254C-4575-B1FD-F6F61A61A1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4A385C-254C-4575-B1FD-F6F61A61A1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB4824F6-815F-429A-9808-FC37B2ED79E9}
+	EndGlobalSection
+EndGlobal
