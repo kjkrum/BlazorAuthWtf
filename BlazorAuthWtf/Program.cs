@@ -1,4 +1,6 @@
+using BlazorAuthWtf.Auth;
 using BlazorAuthWtf.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 
 namespace BlazorAuthWtf
 {
@@ -11,6 +13,9 @@ namespace BlazorAuthWtf
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+
+            builder.Services.AddCascadingAuthenticationState(); // necessary?
+            builder.Services.AddScoped<AuthenticationStateProvider, DummyAuthStateProvider>();
 
             var app = builder.Build();
 
